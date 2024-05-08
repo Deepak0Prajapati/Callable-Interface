@@ -1,0 +1,4 @@
+This program implements callable interface which is used to create thread which returns value.
+
+to use callable thread you can not use start like other threads.
+you have to use executorService to submit thread and use it this returns a future typr object that you can use to access the value returned with get method.
